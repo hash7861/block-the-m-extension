@@ -1,0 +1,13 @@
+{
+  "manifest_version": 3,
+  "name": "Block the M",
+  "version": "1.0",
+  "description": "Cross out every letter M on the page with a big red X. Go Bucks.",
+  "action": {
+    "default_popup": "popup.html",
+    "default_icon": {
+      "128": "icon128.png"
+    }
+  },
+  "permissions": ["scripting", "activeTab"]
+}
